@@ -124,3 +124,5 @@ If Zoom is still closed, make sure an old copy of the script is not still runnin
 - The script does not limit playing time, only launching.
 - The scheduled task runs as SYSTEM, so a standard user cannot close it in Task Manager. A child with administrator rights can stop or delete it.
 - The scripts were not tested on a real Windows machine by their author. Test them on the child's PC before relying on them.
+
+powershell -ExecutionPolicy Bypass -File "C:\BlockGames\install_block_games.ps1"
